@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/4fed58b8ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">TRAVEL</a>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Địa điểm +</a>
+                    <ul>
+                        <li><a href="">Thanh Hóa</a></li>
+                        <li><a href="">Nghệ An</a></li>
+                        <li><a href="">Hà Tĩnh</a></li>
+                        <li><a href="">Quảng Bình</a></li>
+                        <li><a href="">Quảng Trị</a></li>
+                        <li><a href="">Huế</a></li>
+                        <li><a href="">Đà Nẵng</a></li>
+                        <li><a href="">Quảng Nam</a></li>
+                        <li><a href="">Quảng Ngãi</a></li>
+                        <li><a href="">Bình Định</a></li>
+                        <li><a href="">Phú Yên</a></li>
+                        <li><a href="">Quy Nhơn</a></li>
+                        <li><a href="">Nha Trang</a></li>
+                        <li><a href="">Khánh Hòa</a></li>
+                        <li><a href="">Ninh Thuận</a></li>
+                        <li><a href="">Bình Thuận</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Kinh nghiệm</a></li>
+                <li><a href="#">Ẩm thực +</a>
+                    <ul>
+                        <li><a href="">Đặc Sản</a></li>
+                        <li><a href="">Truyền Thống</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <!-- <div class="header-top">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-regular fa-circle-user"></i>
+            <ul>
+                <li style="--x:1;"><a href="">Trang chủ</a></li>
+                <li style="--x:2;"><a href="">Địa điểm</a></li>
+                <li style="--x:3;"><a href="">Khách sạn</a></li>
+                <li style="--x:4;"><a href="">Ẩm thực</a></li>
+                <li style="--x:5;"><a href="">Về chúng tôi</a></li>
+                <li style="--x:6;"><a href="">Liên hệ</a></li>
+            </ul>
+        </div> -->
+        
+    </header>
+    <div class="video-container">
+        <video src="video/canhdn.mp4" autoplay muted loop></video>
+    </div>
+    <div class="header-content">
+        <h1>Khám phá</h1>
+        <p>Ngao du khúc ruột miền Trung</p>
+        <form action="">
+            <h1>Bạn muốn đi đâu hè này?</h1>
+            <p>Địa điểm</p>
+            <select name="" id="">
+                <option value="#">--Chọn địa điểm--</option>
+            </select>
+            <p>Đi cùng</p>
+            <select name="" id="">
+                <option value="#">--Đi cùng ai?--</option>
+            </select>
+            <p>Ngày đi</p>
+            <input type="date">
+            <p>Ngày về</p>
+            <input type="date">
+            <button>Tìm kiếm</button>
+        </form>
+    </div>
+    <!-- Địa điểm nổi bật -->
+    <section class="nice-place">
+        <div class="container">
+            <h1 class="h1-style">Địa điểm nổi bật</h1>
+            <div class="nice-place-content row">
+                <div class="nice-place-item">
+                    <div class="nice-place-img">
+                        <img src="img/cauvang.jpg" alt="">
+                    </div>
+                    <div class="nice-place-text">
+                        <h2>Cầu Vàng Đà Nẵng</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p>Cầu Vàng Đà Nẵng là một trong những công
+                            trình đặc sắc thuộc quần thể du lịch Sun World
+                            Bà Nà Hills Đà Nẵng. Cây cầu có thiết kế vô
+                            cùng ấn tượng...</p>
+                        <button class="btn">Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="nice-place-item">
+                    <div class="nice-place-img">
+                        <img src="img/chuacau.jpg" alt="">
+                    </div>
+                    <div class="nice-place-text">
+                        <h2>Chùa Cầu Hội An</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p>Chùa Cầu Hội An được biết đến là biểu tượng
+                            du lịch của khu phố cổ. Nơi đây gây ấn tượng
+                            mạnh mẽ nhờ kiến trúc mang đậm phong cách
+                            Nhật Bản.</p>
+                        <button class="btn">Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="nice-place-item">
+                    <div class="nice-place-img">
+                        <img src="img/phongnha.jpg" alt="">
+                    </div>
+                    <div class="nice-place-text">
+                        <h2>Phong Nha Kẻ Bàng</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p>Vườn quốc gia Phong Nha Kẻ Bàng nằm
+                            ở phía Bắc dãy núi Trường Sơn, thuộc địa
+                            phận các xã Tân Trạch, Thượng Trạch, 
+                            Phúc Trạch...</p>
+                        <button class="btn">Xem chi tiết</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about">
+        <div class="container">
+            <h1 class="h1-style">Về Chúng Tôi</h1>
+            <div class="about-content row">
+                <div class="about-content-left">
+                    <img src="img/about.jpg" alt="">
+                </div>
+                <div class="about-content-right">
+                    <h2>Tại sao bạn nên chọn chúng tôi?</h2>
+                    <p>Chúng tôi là công ty hàng đầu về cung cấp dịch vụ lữ hành nội địa và quốc tế tuyệt vời</p>
+                    <button class="btn">Tìm hiểu thêm</button>
+                </div>
+            </div>
+            <div class="service row">
+                <div class="service-item">
+                    <img src="img/couple.png" alt="">
+                    <p>Couple</p>
+                </div>
+                <div class="service-item">
+                    <img src="img/support.png" alt="">
+                    <p>Team</p>
+                </div>
+                <div class="service-item">
+                    <img src="img/family1.png" alt="">
+                    <p>Family</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tour 2022 -->
+    <section class="tour">
+        <div class="container">
+            <h1 class="h1-style">Tour hè 2022</h1>
+            <div class="tour-content row">
+                <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="img/hue.jpg" alt="">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Cố Đô Huế</h2>
+                        <p>Quần thể kiến trúc Cố đô Huế bao gồm hệ thống
+                            các di tích liên quan đến triều Nguyễn, phân bố ở 
+                            thành phố Huế.</p>
+                        <button class="btn">Khám phá</button>
+                    </div>
+                </div>
+                <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="img/lyson.jpg" alt="">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Đảo Lý Sơn</h2>
+                        <p>Đảo Lý Sơn được nhiều người biết đến 
+                            như một thiên đường giữa đại dương
+                            bao la...</p>
+                       <button class="btn">Khám phá</button>
+                    </div>
+                </div>
+                <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="img/kyco.jpg" alt="">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Kỳ Co Eo Gió</h2>
+                        <p>Hãy đến với Bãi Kỳ Co Quy Nhơn ở đây
+                            chắc chắn sẽ đem lại cho bạn cảm giác
+                             thú vị với vẻ đẹp thiên nhiên..</p>
+                        <button class="btn">Khám phá</button>
+                    </div>
+                </div>
+                <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="img/kyco.jpg" alt="">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Bà Nà Hills</h2>
+                        <p>Đến với Sun World Ba Na Hills, du khách
+                            sẽ được trải nghiệm khí hậu bốn mùa trong
+                            một ngày, chu du trên những tuyến cáp treo...</p>
+                        <button class="btn">Khám phá</button>
+                    </div>
+                </div>
+                <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="img/myson.jpg" alt="">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Thánh Địa Mỹ Sơn</h2>
+                        <p>Thánh địa Mỹ Sơn có niên đại từ khoảng thế kỷ
+                            IV dưới thời đại vua Phạm Hồ Đạt, là nơi dùng
+                            để thờ cúng thần Linga và Shiva...</p>
+                        <button class="btn">Khám phá</button>
+                    </div>
+                </div>
+                <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="img/daokhi.jpg" alt="">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Đảo Khỉ Nha Trang</h2>
+                        <p>Không những thích du lịch, khám phá và bạn còn
+                            là người yêu động vật thì đây sẽ là điểm đến lý
+                            tưởng cho bạn. Du lịch miền trung với đảo Khỉ...</p>
+                        <button class="btn">Khám phá</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Review -->
+    <section class="review">
+        <div class="container">
+            <h1 class="h1-style">Phản hồi</h1>
+            <div class="review-content row">
+                <div class="review-item">
+                    <div class="review-item-text">
+                        <img src="img/messquote.png" alt="">
+                        <p><span>&ldquo;</span>Hãy đến với Bãi Kỳ Co Quy Nhơn ở đây
+                            chắc chắn sẽ đem lại cho bạn cảm giác
+                             thú vị <span>&rdquo;</span></p>
+                    </div>
+                    <div class="review-item-img row">
+                        <img src="img/avt1.jpg" alt="">
+                        <div class="review-item-img-text">
+                            <h2>Đình Huân</h2>
+                            <p>Ngày 18/07/2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-item-text">
+                        <img src="img/messquote.png" alt="">
+                        <p><span>&ldquo;</span>Hãy đến với Bãi Kỳ Co Quy Nhơn ở đây
+                            chắc chắn sẽ đem lại cho bạn cảm giác
+                             thú vị <span>&rdquo;</span></p>
+                    </div>
+                    <div class="review-item-img row">
+                        <img src="img/avt2.jpg" alt="">
+                        <div class="review-item-img-text">
+                            <h2>Đình Thắng</h2>
+                            <p>Ngày 20/07/2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-item-text">
+                        <img src="img/messquote.png" alt="">
+                        <p><span>&ldquo;</span>Hãy đến với Bãi Kỳ Co Quy Nhơn ở đây
+                            chắc chắn sẽ đem lại cho bạn cảm giác
+                             thú vị <span>&rdquo;</span></p>
+                    </div>
+                    <div class="review-item-img row">
+                        <img src="img/avt3.jpg" alt="">
+                        <div class="review-item-img-text">
+                            <h2>Thành Đạt</h2>
+                            <p>Ngày 22/07/2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<script>
+    $(document).ready(function() {
+        //Tìm tất cả các li có menu-nav và thêm vào nó class has-child
+        $('.menu-nav').parent('li').addClass('has-child');
+    });
+</script>
+</body>
+</html>
